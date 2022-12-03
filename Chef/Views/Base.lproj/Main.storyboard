@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nmC-YI-nKy">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--홈-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="TabHomeViewController" id="BYZ-38-t0r" customClass="TabHomeViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKo-XM-Gj2">
+                                <rect key="frame" x="0.0" y="91" width="390" height="621"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xi-Zi-ebX">
+                                <rect key="frame" x="0.0" y="91" width="390" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="detailButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZH0-ys-AQb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Xi-Zi-ebX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4BO-ZE-b4n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fKo-XM-Gj2" secondAttribute="trailing" id="Doq-dO-gzR"/>
+                            <constraint firstItem="8Xi-Zi-ebX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Gdi-lf-d0g"/>
+                            <constraint firstItem="fKo-XM-Gj2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="L3L-hv-5hB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Xi-Zi-ebX" secondAttribute="trailing" id="d6L-V7-h7N"/>
+                            <constraint firstItem="fKo-XM-Gj2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iEX-9F-QQn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fKo-XM-Gj2" secondAttribute="bottom" id="lyK-Qt-WBX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="홈" image="house" catalog="system" id="9Ly-RJ-8IO"/>
+                    <navigationItem key="navigationItem" id="SsS-BE-mKi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-192" y="739"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Nbw-76-nBq">
+            <objects>
+                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="nmC-YI-nKy" customClass="MainNavigationController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="juM-BH-WbS"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Me2-6j-MWl">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4cN-07-Ml0" kind="relationship" relationship="rootViewController" id="PSO-lg-KxF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cGM-R5-P6x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191" y="-28"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="NkU-5O-WS9">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="4cN-07-Ml0" customClass="MainTabBarController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="ONf-yl-V0L"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5CY-Lb-JTq">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemOrangeColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hd6-21-dZG"/>
+                        <segue destination="OZV-xD-6Bp" kind="relationship" relationship="viewControllers" id="W6R-K9-0tA"/>
+                        <segue destination="icM-b5-cwZ" kind="relationship" relationship="viewControllers" id="pJa-ov-EJv"/>
+                        <segue destination="o1z-Gp-PHQ" kind="relationship" relationship="viewControllers" id="ncw-uB-hua"/>
+                        <segue destination="Kp4-1R-STY" kind="relationship" relationship="viewControllers" id="Usr-dU-BXk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqL-Of-S8b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="-28"/>
+        </scene>
+        <!--쉐프-->
+        <scene sceneID="iJ6-H5-dBo">
+            <objects>
+                <viewController storyboardIdentifier="TabChefViewController" id="OZV-xD-6Bp" customClass="TabChefViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JgH-0D-Kn8">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DxS-vV-ulZ">
+                                <rect key="frame" x="0.0" y="91" width="390" height="621"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="detailButton:" destination="OZV-xD-6Bp" eventType="touchUpInside" id="HbK-QZ-LQa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NXn-2w-kFg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DxS-vV-ulZ" firstAttribute="leading" secondItem="NXn-2w-kFg" secondAttribute="leading" id="P6G-20-wbT"/>
+                            <constraint firstItem="DxS-vV-ulZ" firstAttribute="top" secondItem="NXn-2w-kFg" secondAttribute="top" id="PCA-RG-gA3"/>
+                            <constraint firstItem="NXn-2w-kFg" firstAttribute="bottom" secondItem="DxS-vV-ulZ" secondAttribute="bottom" id="YsK-dE-OeS"/>
+                            <constraint firstItem="NXn-2w-kFg" firstAttribute="trailing" secondItem="DxS-vV-ulZ" secondAttribute="trailing" id="qaI-RL-NcI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="쉐프" image="square.and.pencil" catalog="system" id="nv0-zn-tUK"/>
+                    <navigationItem key="navigationItem" id="cN1-YX-M8A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Srd-Rw-NCh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528" y="739"/>
+        </scene>
+        <!--쇼핑-->
+        <scene sceneID="ZoW-fe-nZV">
+            <objects>
+                <viewController storyboardIdentifier="TabShoopingViewController" id="icM-b5-cwZ" customClass="TabShoopingViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rds-d7-V9N">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="huf-VH-Z4N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="쇼핑" image="basket" catalog="system" id="f0D-eD-HrO"/>
+                    <navigationItem key="navigationItem" id="207-5g-pex"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AtE-hi-DhD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1255" y="739"/>
+        </scene>
+        <!--이벤트-->
+        <scene sceneID="Oet-Nc-XyD">
+            <objects>
+                <viewController storyboardIdentifier="TabEventViewController" id="o1z-Gp-PHQ" customClass="TabEventViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AM8-5Y-Xzq">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="K26-8G-8HR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="이벤트" image="party.popper" catalog="system" id="Ufz-rg-hrs"/>
+                    <navigationItem key="navigationItem" id="fOm-Z9-ogS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8I-oT-f1C" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1963" y="739"/>
+        </scene>
+        <!--마이-->
+        <scene sceneID="EdU-Zg-MT4">
+            <objects>
+                <viewController storyboardIdentifier="TabMyViewController" id="Kp4-1R-STY" customClass="TabMyViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CZD-Bx-K3M">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4ww-gr-5iD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="마이" image="person" catalog="system" id="NZr-Xb-AI1"/>
+                    <navigationItem key="navigationItem" id="QkA-Dw-iRl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CbU-1d-mtW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2695" y="739"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="basket" catalog="system" width="128" height="108"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="party.popper" catalog="system" width="128" height="116"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
