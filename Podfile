@@ -10,6 +10,7 @@ target 'Chef' do
   pod 'RxSwift', '~> 6.5.0'
   pod 'RxCocoa', '~> 6.5.0'
   pod 'RxDataSources', '~> 5.0.0'
+  pod 'Kingfisher', '~> 7.4.1'
 
   target 'ChefTests' do
     inherit! :search_paths

@@ -9,15 +9,22 @@
 /* Begin PBXBuildFile section */
 		A3D32723F32BE919C532AAB0 /* Pods_Chef_ChefUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0DE87196B9C425AD7EAECF /* Pods_Chef_ChefUITests.framework */; };
 		C25D676BBCEE2E02E35CE8DB /* Pods_Chef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5509091F70469CE696BFEBAA /* Pods_Chef.framework */; };
+		CC28171B293C4E4F0020D5EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28171A293C4E4F0020D5EF /* DetailViewController.swift */; };
+		CC28171D293C4E590020D5EF /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC28171C293C4E590020D5EF /* DetailViewController.storyboard */; };
 		CC59F1E6293BA7C700CB3FA8 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */; };
 		CC59F1E8293BA7EF00CB3FA8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1E7293BA7EF00CB3FA8 /* MainTabBarController.swift */; };
-		CC59F1EA293BA84000CB3FA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1E9293BA84000CB3FA8 /* DetailViewController.swift */; };
-		CC59F1EC293BA98700CB3FA8 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC59F1EB293BA98700CB3FA8 /* DetailViewController.storyboard */; };
 		CC59F1EE293BAF1600CB3FA8 /* TabChefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1ED293BAF1600CB3FA8 /* TabChefViewController.swift */; };
 		CC59F1F0293BAF3600CB3FA8 /* TabShoopingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1EF293BAF3600CB3FA8 /* TabShoopingViewController.swift */; };
 		CC59F1F2293BAF3F00CB3FA8 /* TabEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1F1293BAF3F00CB3FA8 /* TabEventViewController.swift */; };
 		CC59F1F4293BAF4700CB3FA8 /* TabMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1F3293BAF4700CB3FA8 /* TabMyViewController.swift */; };
 		CC59F207293BD16900CB3FA8 /* TabHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F206293BD16900CB3FA8 /* TabHomeViewController.swift */; };
+		CCB1B8CA293C3145005992AC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1B8C9293C3145005992AC /* HomeViewModel.swift */; };
+		CCB1B8CC293C318C005992AC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1B8CB293C318C005992AC /* NetworkService.swift */; };
+		CCB1B8CE293C3200005992AC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1B8CD293C3200005992AC /* Resource.swift */; };
+		CCB1B8D0293C329A005992AC /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1B8CF293C329A005992AC /* ItemInfo.swift */; };
+		CCB1B8D3293C3A42005992AC /* ItemInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1B8D2293C3A42005992AC /* ItemInfoCell.swift */; };
+		CCB1B8D6293C410E005992AC /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1B8D5293C410E005992AC /* DetailViewModel.swift */; };
+		CCB1B8D8293C414F005992AC /* ItemInfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1B8D7293C414F005992AC /* ItemInfoDetails.swift */; };
 		CCCC9994293B9A390051CAB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCC9993293B9A390051CAB2 /* AppDelegate.swift */; };
 		CCCC9996293B9A390051CAB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCC9995293B9A390051CAB2 /* SceneDelegate.swift */; };
 		CCCC999B293B9A390051CAB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCC9999293B9A390051CAB2 /* Main.storyboard */; };
@@ -54,15 +61,23 @@
 		5509091F70469CE696BFEBAA /* Pods_Chef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF154B6DC24A1E63371C531 /* Pods-Chef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef.release.xcconfig"; path = "Target Support Files/Pods-Chef/Pods-Chef.release.xcconfig"; sourceTree = "<group>"; };
 		AD0DE87196B9C425AD7EAECF /* Pods_Chef_ChefUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef_ChefUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC28171A293C4E4F0020D5EF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CC28171C293C4E590020D5EF /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		CC59F1E7293BA7EF00CB3FA8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		CC59F1E9293BA84000CB3FA8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		CC59F1EB293BA98700CB3FA8 /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		CC59F1ED293BAF1600CB3FA8 /* TabChefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabChefViewController.swift; sourceTree = "<group>"; };
 		CC59F1EF293BAF3600CB3FA8 /* TabShoopingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShoopingViewController.swift; sourceTree = "<group>"; };
 		CC59F1F1293BAF3F00CB3FA8 /* TabEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabEventViewController.swift; sourceTree = "<group>"; };
 		CC59F1F3293BAF4700CB3FA8 /* TabMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMyViewController.swift; sourceTree = "<group>"; };
 		CC59F206293BD16900CB3FA8 /* TabHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHomeViewController.swift; sourceTree = "<group>"; };
+		CCB1B8C9293C3145005992AC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CCB1B8CB293C318C005992AC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CCB1B8CD293C3200005992AC /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		CCB1B8CF293C329A005992AC /* ItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
+		CCB1B8D1293C3471005992AC /* TabHomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = TabHomeViewController.storyboard; path = /Users/chaekyeong/dev/xcodeProjects/Chef/Chef/Home/TabHomeViewController.storyboard; sourceTree = "<absolute>"; };
+		CCB1B8D2293C3A42005992AC /* ItemInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoCell.swift; sourceTree = "<group>"; };
+		CCB1B8D5293C410E005992AC /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		CCB1B8D7293C414F005992AC /* ItemInfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoDetails.swift; sourceTree = "<group>"; };
 		CCCC9990293B9A390051CAB2 /* Chef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCC9993293B9A390051CAB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCCC9995293B9A390051CAB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,8 +150,10 @@
 		CC59F1F5293BC7C100CB3FA8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CCB1B8D1293C3471005992AC /* TabHomeViewController.storyboard */,
 				CC59F206293BD16900CB3FA8 /* TabHomeViewController.swift */,
-				CC59F1E9293BA84000CB3FA8 /* DetailViewController.swift */,
+				CCB1B8C9293C3145005992AC /* HomeViewModel.swift */,
+				CCB1B8D2293C3A42005992AC /* ItemInfoCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -178,7 +195,6 @@
 			children = (
 				CCCC99A1293B9A390051CAB2 /* LaunchScreen.storyboard */,
 				CCCC9999293B9A390051CAB2 /* Main.storyboard */,
-				CC59F1EB293BA98700CB3FA8 /* DetailViewController.storyboard */,
 				CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */,
 				CC59F1E7293BA7EF00CB3FA8 /* MainTabBarController.swift */,
 			);
@@ -202,6 +218,8 @@
 		CC59F1FE293BC88C00CB3FA8 /* Networks */ = {
 			isa = PBXGroup;
 			children = (
+				CCB1B8CB293C318C005992AC /* NetworkService.swift */,
+				CCB1B8CD293C3200005992AC /* Resource.swift */,
 			);
 			path = Networks;
 			sourceTree = "<group>";
@@ -209,8 +227,20 @@
 		CC59F1FF293BC8A400CB3FA8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CCB1B8CF293C329A005992AC /* ItemInfo.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CCB1B8D4293C40F8005992AC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1B8D5293C410E005992AC /* DetailViewModel.swift */,
+				CCB1B8D7293C414F005992AC /* ItemInfoDetails.swift */,
+				CC28171A293C4E4F0020D5EF /* DetailViewController.swift */,
+				CC28171C293C4E590020D5EF /* DetailViewController.storyboard */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		CCCC9987293B9A380051CAB2 = {
@@ -246,6 +276,7 @@
 				CC59F1F7293BC7DE00CB3FA8 /* Shopping */,
 				CC59F1F6293BC7D600CB3FA8 /* Chef */,
 				CC59F1F5293BC7C100CB3FA8 /* Home */,
+				CCB1B8D4293C40F8005992AC /* Detail */,
 				CC59F1FE293BC88C00CB3FA8 /* Networks */,
 				CC59F1FF293BC8A400CB3FA8 /* Models */,
 				CC59F1FD293BC88600CB3FA8 /* Extensions */,
@@ -383,7 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC59F1EC293BA98700CB3FA8 /* DetailViewController.storyboard in Resources */,
+				CC28171D293C4E590020D5EF /* DetailViewController.storyboard in Resources */,
 				CCCC99A3293B9A390051CAB2 /* LaunchScreen.storyboard in Resources */,
 				CCCC99A0293B9A390051CAB2 /* Assets.xcassets in Resources */,
 				CCCC999B293B9A390051CAB2 /* Main.storyboard in Resources */,
@@ -514,17 +545,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB1B8D6293C410E005992AC /* DetailViewModel.swift in Sources */,
 				CC59F1EE293BAF1600CB3FA8 /* TabChefViewController.swift in Sources */,
 				CC59F1E6293BA7C700CB3FA8 /* MainNavigationController.swift in Sources */,
 				CC59F1E8293BA7EF00CB3FA8 /* MainTabBarController.swift in Sources */,
 				CCCC9994293B9A390051CAB2 /* AppDelegate.swift in Sources */,
+				CCB1B8D8293C414F005992AC /* ItemInfoDetails.swift in Sources */,
+				CCB1B8D0293C329A005992AC /* ItemInfo.swift in Sources */,
 				CC59F1F4293BAF4700CB3FA8 /* TabMyViewController.swift in Sources */,
 				CCCC9996293B9A390051CAB2 /* SceneDelegate.swift in Sources */,
+				CC28171B293C4E4F0020D5EF /* DetailViewController.swift in Sources */,
 				CC59F207293BD16900CB3FA8 /* TabHomeViewController.swift in Sources */,
+				CCB1B8D3293C3A42005992AC /* ItemInfoCell.swift in Sources */,
+				CCB1B8CA293C3145005992AC /* HomeViewModel.swift in Sources */,
 				CC59F1F0293BAF3600CB3FA8 /* TabShoopingViewController.swift in Sources */,
 				CCCC999E293B9A390051CAB2 /* Chef.xcdatamodeld in Sources */,
-				CC59F1EA293BA84000CB3FA8 /* DetailViewController.swift in Sources */,
+				CCB1B8CC293C318C005992AC /* NetworkService.swift in Sources */,
 				CC59F1F2293BAF3F00CB3FA8 /* TabEventViewController.swift in Sources */,
+				CCB1B8CE293C3200005992AC /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
