@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A3D32723F32BE919C532AAB0 /* Pods_Chef_ChefUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0DE87196B9C425AD7EAECF /* Pods_Chef_ChefUITests.framework */; };
 		C25D676BBCEE2E02E35CE8DB /* Pods_Chef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5509091F70469CE696BFEBAA /* Pods_Chef.framework */; };
+		CC1F4B48296FB2C5007CE311 /* CustomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F4B47296FB2C5007CE311 /* CustomBarItem.swift */; };
+		CC1F4B4A296FB79C007CE311 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F4B49296FB79C007CE311 /* UIBarButtonItemExtension.swift */; };
 		CC28171B293C4E4F0020D5EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28171A293C4E4F0020D5EF /* DetailViewController.swift */; };
 		CC28171D293C4E590020D5EF /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC28171C293C4E590020D5EF /* DetailViewController.storyboard */; };
 		CC59F1E6293BA7C700CB3FA8 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */; };
@@ -61,6 +63,8 @@
 		5509091F70469CE696BFEBAA /* Pods_Chef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF154B6DC24A1E63371C531 /* Pods-Chef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef.release.xcconfig"; path = "Target Support Files/Pods-Chef/Pods-Chef.release.xcconfig"; sourceTree = "<group>"; };
 		AD0DE87196B9C425AD7EAECF /* Pods_Chef_ChefUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef_ChefUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1F4B47296FB2C5007CE311 /* CustomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarItem.swift; sourceTree = "<group>"; };
+		CC1F4B49296FB79C007CE311 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
 		CC28171A293C4E4F0020D5EF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CC28171C293C4E590020D5EF /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 				CCCC9999293B9A390051CAB2 /* Main.storyboard */,
 				CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */,
 				CC59F1E7293BA7EF00CB3FA8 /* MainTabBarController.swift */,
+				CC1F4B47296FB2C5007CE311 /* CustomBarItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 		CC59F1FD293BC88600CB3FA8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CC1F4B49296FB79C007CE311 /* UIBarButtonItemExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -545,8 +551,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1F4B4A296FB79C007CE311 /* UIBarButtonItemExtension.swift in Sources */,
 				CCB1B8D6293C410E005992AC /* DetailViewModel.swift in Sources */,
 				CC59F1EE293BAF1600CB3FA8 /* TabChefViewController.swift in Sources */,
+				CC1F4B48296FB2C5007CE311 /* CustomBarItem.swift in Sources */,
 				CC59F1E6293BA7C700CB3FA8 /* MainNavigationController.swift in Sources */,
 				CC59F1E8293BA7EF00CB3FA8 /* MainTabBarController.swift in Sources */,
 				CCCC9994293B9A390051CAB2 /* AppDelegate.swift in Sources */,
