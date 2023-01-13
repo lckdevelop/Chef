@@ -11,6 +11,11 @@
 		C25D676BBCEE2E02E35CE8DB /* Pods_Chef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5509091F70469CE696BFEBAA /* Pods_Chef.framework */; };
 		CC1F4B48296FB2C5007CE311 /* CustomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F4B47296FB2C5007CE311 /* CustomBarItem.swift */; };
 		CC1F4B4A296FB79C007CE311 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F4B49296FB79C007CE311 /* UIBarButtonItemExtension.swift */; };
+		CC1F4B512970F3DA007CE311 /* TabHomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1F4B4F2970F3DA007CE311 /* TabHomeViewController.storyboard */; };
+		CC1F4B532970F44D007CE311 /* TabChefViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1F4B522970F44D007CE311 /* TabChefViewController.storyboard */; };
+		CC1F4B562970F474007CE311 /* TabShoopingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1F4B542970F474007CE311 /* TabShoopingViewController.storyboard */; };
+		CC1F4B592970F491007CE311 /* TabEventViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1F4B572970F491007CE311 /* TabEventViewController.storyboard */; };
+		CC1F4B5B2970F4B7007CE311 /* TabMyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1F4B5A2970F4B7007CE311 /* TabMyViewController.storyboard */; };
 		CC28171B293C4E4F0020D5EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28171A293C4E4F0020D5EF /* DetailViewController.swift */; };
 		CC28171D293C4E590020D5EF /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC28171C293C4E590020D5EF /* DetailViewController.storyboard */; };
 		CC59F1E6293BA7C700CB3FA8 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */; };
@@ -65,6 +70,11 @@
 		AD0DE87196B9C425AD7EAECF /* Pods_Chef_ChefUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef_ChefUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1F4B47296FB2C5007CE311 /* CustomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarItem.swift; sourceTree = "<group>"; };
 		CC1F4B49296FB79C007CE311 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		CC1F4B502970F3DA007CE311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Chef/Views/Base.lproj/TabHomeViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		CC1F4B522970F44D007CE311 /* TabChefViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabChefViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		CC1F4B552970F474007CE311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Chef/Views/Base.lproj/TabShoopingViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		CC1F4B582970F491007CE311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Chef/Views/Base.lproj/TabEventViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		CC1F4B5A2970F4B7007CE311 /* TabMyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabMyViewController.storyboard; sourceTree = SOURCE_ROOT; };
 		CC28171A293C4E4F0020D5EF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CC28171C293C4E590020D5EF /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		CC59F1E5293BA7C700CB3FA8 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
@@ -78,7 +88,6 @@
 		CCB1B8CB293C318C005992AC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		CCB1B8CD293C3200005992AC /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		CCB1B8CF293C329A005992AC /* ItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
-		CCB1B8D1293C3471005992AC /* TabHomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = TabHomeViewController.storyboard; path = /Users/chaekyeong/dev/xcodeProjects/Chef/Chef/Home/TabHomeViewController.storyboard; sourceTree = "<absolute>"; };
 		CCB1B8D2293C3A42005992AC /* ItemInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoCell.swift; sourceTree = "<group>"; };
 		CCB1B8D5293C410E005992AC /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		CCB1B8D7293C414F005992AC /* ItemInfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoDetails.swift; sourceTree = "<group>"; };
@@ -154,7 +163,7 @@
 		CC59F1F5293BC7C100CB3FA8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				CCB1B8D1293C3471005992AC /* TabHomeViewController.storyboard */,
+				CC1F4B4F2970F3DA007CE311 /* TabHomeViewController.storyboard */,
 				CC59F206293BD16900CB3FA8 /* TabHomeViewController.swift */,
 				CCB1B8C9293C3145005992AC /* HomeViewModel.swift */,
 				CCB1B8D2293C3A42005992AC /* ItemInfoCell.swift */,
@@ -165,6 +174,7 @@
 		CC59F1F6293BC7D600CB3FA8 /* Chef */ = {
 			isa = PBXGroup;
 			children = (
+				CC1F4B522970F44D007CE311 /* TabChefViewController.storyboard */,
 				CC59F1ED293BAF1600CB3FA8 /* TabChefViewController.swift */,
 			);
 			path = Chef;
@@ -173,6 +183,7 @@
 		CC59F1F7293BC7DE00CB3FA8 /* Shopping */ = {
 			isa = PBXGroup;
 			children = (
+				CC1F4B542970F474007CE311 /* TabShoopingViewController.storyboard */,
 				CC59F1EF293BAF3600CB3FA8 /* TabShoopingViewController.swift */,
 			);
 			path = Shopping;
@@ -181,6 +192,7 @@
 		CC59F1F8293BC7E900CB3FA8 /* Event */ = {
 			isa = PBXGroup;
 			children = (
+				CC1F4B572970F491007CE311 /* TabEventViewController.storyboard */,
 				CC59F1F1293BAF3F00CB3FA8 /* TabEventViewController.swift */,
 			);
 			path = Event;
@@ -189,6 +201,7 @@
 		CC59F1F9293BC7F500CB3FA8 /* My */ = {
 			isa = PBXGroup;
 			children = (
+				CC1F4B5A2970F4B7007CE311 /* TabMyViewController.storyboard */,
 				CC59F1F3293BAF4700CB3FA8 /* TabMyViewController.swift */,
 			);
 			path = My;
@@ -420,10 +433,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1F4B592970F491007CE311 /* TabEventViewController.storyboard in Resources */,
+				CC1F4B5B2970F4B7007CE311 /* TabMyViewController.storyboard in Resources */,
+				CC1F4B562970F474007CE311 /* TabShoopingViewController.storyboard in Resources */,
 				CC28171D293C4E590020D5EF /* DetailViewController.storyboard in Resources */,
 				CCCC99A3293B9A390051CAB2 /* LaunchScreen.storyboard in Resources */,
 				CCCC99A0293B9A390051CAB2 /* Assets.xcassets in Resources */,
 				CCCC999B293B9A390051CAB2 /* Main.storyboard in Resources */,
+				CC1F4B532970F44D007CE311 /* TabChefViewController.storyboard in Resources */,
+				CC1F4B512970F3DA007CE311 /* TabHomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +625,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CC1F4B4F2970F3DA007CE311 /* TabHomeViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1F4B502970F3DA007CE311 /* Base */,
+			);
+			name = TabHomeViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		CC1F4B542970F474007CE311 /* TabShoopingViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1F4B552970F474007CE311 /* Base */,
+			);
+			name = TabShoopingViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		CC1F4B572970F491007CE311 /* TabEventViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1F4B582970F491007CE311 /* Base */,
+			);
+			name = TabEventViewController.storyboard;
+			sourceTree = "<group>";
+		};
 		CCCC9999293B9A390051CAB2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -756,6 +798,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -785,6 +828,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

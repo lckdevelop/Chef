@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,13 +44,47 @@
                         <segue destination="cSO-Nb-gxj" kind="relationship" relationship="viewControllers" id="ebk-PJ-yqd"/>
                         <segue destination="zaR-iw-Dai" kind="relationship" relationship="viewControllers" id="dwG-Kq-sLZ"/>
                         <segue destination="okN-Tc-se9" kind="relationship" relationship="viewControllers" id="yRX-uc-Q2F"/>
-                        <segue destination="uWP-o2-AtX" kind="relationship" relationship="viewControllers" id="XWK-R5-fs2"/>
-                        <segue destination="CzD-sy-qHy" kind="relationship" relationship="viewControllers" id="uSv-41-EHD"/>
+                        <segue destination="o1z-Gp-PHQ" kind="relationship" relationship="viewControllers" id="XWK-R5-fs2"/>
+                        <segue destination="Kp4-1R-STY" kind="relationship" relationship="viewControllers" id="uSv-41-EHD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqL-Of-S8b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="729" y="-28"/>
+        </scene>
+        <!--이벤트-->
+        <scene sceneID="Oet-Nc-XyD">
+            <objects>
+                <viewController storyboardIdentifier="TabEventViewController" id="o1z-Gp-PHQ" customClass="TabEventViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AM8-5Y-Xzq">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="K26-8G-8HR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="이벤트" image="party.popper" catalog="system" id="Ufz-rg-hrs"/>
+                    <navigationItem key="navigationItem" id="fOm-Z9-ogS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8I-oT-f1C" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1963" y="739"/>
+        </scene>
+        <!--마이-->
+        <scene sceneID="EdU-Zg-MT4">
+            <objects>
+                <viewController storyboardIdentifier="TabMyViewController" id="Kp4-1R-STY" customClass="TabMyViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CZD-Bx-K3M">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4ww-gr-5iD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="마이" image="person" catalog="system" id="NZr-Xb-AI1"/>
+                    <navigationItem key="navigationItem" id="QkA-Dw-iRl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CbU-1d-mtW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2695" y="739"/>
         </scene>
         <!--TabHomeViewController-->
         <scene sceneID="f2E-qH-8oi">
@@ -81,28 +116,13 @@
             </objects>
             <point key="canvasLocation" x="1255" y="739"/>
         </scene>
-        <!--TabEventViewController-->
-        <scene sceneID="3UX-hg-x24">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="TabEventViewController" storyboardName="TabEventViewController" referencedIdentifier="TabEventViewController" id="uWP-o2-AtX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ewJ-nF-5OI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bYs-Bs-zLO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1963" y="739"/>
-        </scene>
-        <!--TabMyViewController-->
-        <scene sceneID="4TR-Xp-pPi">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="TabMyViewController" storyboardName="TabMyViewController" referencedIdentifier="TabMyViewController" id="CzD-sy-qHy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="4cn-Kg-Cew"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="huo-GM-5go" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2695" y="739"/>
-        </scene>
     </scenes>
     <resources>
+        <image name="party.popper" catalog="system" width="128" height="116"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
